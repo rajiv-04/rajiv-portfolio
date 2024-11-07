@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ChevronDown, ChevronUp, Code, Dumbbell, MessageCircle, Cpu, Database, Globe } from 'lucide-react'
+import { ChevronDown, ChevronUp, Dumbbell, MessageCircle, Cpu, Database, Globe } from 'lucide-react'
 
 export default function Component() {
   const [activeSection, setActiveSection] = useState<string | null>(null)
